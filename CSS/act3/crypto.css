@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: black;
+    color: white;
+}
+
+p {
+    font-weight: 300;
+    color: white;
+}
+
+.home {
+    margin-left: 0 auto;
+    margin-top: 0 auto;
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+}
+
+.home .image {
+    width: 12opx;
+    height: 300px;
+    margin: 20px;
+    padding-left: 500px;
+}
+
+.home span {
+    color: yellow;
+}
+
+.home h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: yellow;
+    margin-top: 10%;
+    margin-left: 10%;
+
+}
+
+.home h2 {
+    margin-bottom: 5px;
+    color: gray;
+    margin-top: 2px;
+    margin-left: 30px;
+    font-size: 18px;
+    padding-left: 130px;
+}
+
+.home h3 {
+    margin-bottom: 20px;
+    color: red;
+    margin-top: 2px;
+    margin-left: 30px;
+    font-size: 18px;
+    padding-left: 130px;
+}
+
+.home p {
+    color: white;
+    line-height: 22px;
+    font-style: sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.home a {
+    background: yellow;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+
+.button {
+    color: black;
+    font-size: 0.9em;
+    background: yellow;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    transition: 0.5s;
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button:hover {
+    letter-spacing: 4px;
+}
+
+.cryptocurrency {
+    margin-left: 0 auto;
+    margin-top: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+}
+
+.cryptocurrency span {
+    color: yellow;
+}
+
+.cryptocurrency h1 {
+    font-size: 50px;
+    margin-bottom: 2px;
+    color: yellow;
+    margin-top: 5px;
+    margin-left: 10%;
+
+}
+
+
+.cryptocurrency p {
+    color: white;
+    line-height: 22px;
+    font-style: sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.cryptocurrency p span {
+    color: red;
+}
+
+.cryptocurrency a {
+    background: yellow;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+.blockchain {
+    margin-left: 0 auto;
+    margin-top: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+}
+
+.blockchain span {
+    color: yellow;
+}
+
+.blockchain h1 {
+    font-size: 50px;
+    margin-bottom: 2px;
+    color: yellow;
+    margin-top: 5px;
+    margin-left: 10%;
+
+}
+
+
+.blockchain p {
+    color: white;
+    line-height: 22px;
+    font-style: sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    font-size: 20;
+}
+
+.blockchain p span {
+    color: red;
+}
+
+.blockchain a {
+    background: yellow;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+
+.proof {
+    margin-left: 0 auto;
+    margin-top: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+}
+
+.proof span {
+    color: yellow;
+}
+
+.proof h1 {
+    font-size: 50px;
+    margin-bottom: 2px;
+    color: yellow;
+    margin-top: 5px;
+    margin-left: 10%;
+
+}
+
+
+.proof p {
+    color: white;
+    line-height: 22px;
+    font-style: sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.proof p span {
+    color: red;
+}
+
+.proof a {
+    background: yellow;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+.role {
+    margin-left: 0 auto;
+    margin-top: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding-top: 250px;
+}
+
+.role span {
+    color: yellow;
+}
+
+.role h1 {
+    font-size: 50px;
+    margin-bottom: 2px;
+    color: yellow;
+    margin-top: 5px;
+    margin-left: 10%;
+
+}
+
+
+.role p {
+    color: white;
+    line-height: 22px;
+    font-style: sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.role p span {
+    color: red;
+}
+
+.role a {
+    background: yellow;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+.role h3 {
+    margin-bottom: 20px;
+    color: gray;
+    margin-top: 2px;
+    margin-left: 30px;
+    font-size: 14px;
+    padding-left: 140px;
+}
+
+header .logo {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+header.sticky .logo {
+    color: white;
+}
+
+header .logo span {
+    color: yellow;
+}

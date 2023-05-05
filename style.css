@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    position: relative;
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: yellow;
+    transition: .3s;
+    bottom: 0;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+/* .btn {
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 8px 25px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: yellow;
+    border: 2px solid yellow;
+}
+
+.btn:hover {
+    background: transparent;
+    border-color: yellow;
+    color: yellow;
+} */
+
+.content {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+.content .title {
+    color: red;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.content h1 {
+    color: white;
+    font-size: 85px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+
+.content h1 span {
+    color: yellow;
+}
+
+.content p {
+    width: 55%;
+    color: #757575;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+
+
+/* <---Header Logo---> */
+.frix {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-left: 0%;
+}
+
+.images {
+    width: 45% auto;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    margin-right: 5%;
+  
+  }
+
+/* span */
+span {
+    color: yellow;
+}
+
+span:hover {
+  color: white;
+}
+
+
+/* section */
+section {
+    padding: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+
+
+
+  /* about */
+.row {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  .row .co150 {
+    width: 48%;
+    position: relative;
+  }
+  
+  .row .co150 h2 {
+    font-size: 60px;
+  }
+
+  .row .co150 p {
+    font-size: 18px;
+    color: rgb(156, 155, 155);
+  }
+  /* about end */
+
+  /* act */
+  .act {
+    width: 100%;
+    height: 100;
+  }
+
+  .act .co150 h2{
+    font-size: 50px;
+    color: red;
+    letter-spacing: 3.5;
+    text-align: center;
+  }
+
+  .act .co150 h3{
+    font-size: 50px;
+    color: red;
+    letter-spacing: 3.5;
+    text-align: center;
+  }
+
+  .act .co150 a{
+    font-size: 20px;
+    color: white;
+    background: black;
+    font-weight: bold;
+    /* margin-left: 40px; */
+    text-align: left;
+    padding: 3px 20px;
+    border-radius: 20px;
+    transition: .5s ease;
+    letter-spacing: 1.5px;
+  }
+
+  .act .co150 a:hover{
+    color: white;
+    background: red;
+  }
+
+  .act .co150 img{
+    max-width: 600px;
+    border-radius: 100px;
+  }
+
+  /* act end */
+  
+  .titleText {
+    font-weight: 300;
+    font-size: 2em;
+    color: white;
+  }
+  
+  
+  .titleText span {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: yellow;
+  }
+  
+  .row .co150 .imgBx {
+    min-height: 600px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  
+  .row .co150 .imgBx img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    border-radius: 34px;
+  }
+  
+  /* end of about */
+
+  /* skills page */
+
+.title h2 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .title p{
+    color: white;
+    text-align: center;
+  }
+
+  
+
+
+  /* Codes for skill bar */
+
+.skills {
+    width: 100%;
+    max-width: 1500px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  
+  .skill-name {
+    font-size: 22px;
+    font-weight: 700;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  
+  .skill-bar {
+    height: 18px;
+    background: #282828;
+    border-radius: 3px;
+  }
+  
+  .skill-per {
+    height: 18px;
+    background: red;
+    border-radius: 8px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+  }
+  
+  .skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 1px 7px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 13px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+  }
+  
+  .skill-per::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+  }
+  
+  @keyframes fillBars {
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+
+
+  /* header */
+header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9000;
+  background-color: black;
+}
+
+header.sticky {
+  padding: 10px 20px;
+  box-shadow: 0 4px 19px rgba(0, 0, 0, 0.04);
+}
+
+
+header.sticky .logo {
+  color: white;
+}
+
+
+
+
+header.sticky .nav li a {
+  color: white;
+}
+
+
+/* contact */
+
+
+
+/* end of header */
+
+.copyrightText {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 8px 30px;
+}
+
+.copyrightText p {
+  color: #333;
+}
+
+.copyrightText a {
+  color: yellow;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* end of copyright */
+
+
+
